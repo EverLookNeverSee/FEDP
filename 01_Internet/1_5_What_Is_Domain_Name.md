@@ -16,3 +16,12 @@ websites they are looking for. This process is known as a DNS lookup.
 Domain names are all managed by domain registries, which delegate the reservation of domain
 names to registrars. Anyone who wants to create a website can register a domain name with a
 registrar, and there are currently over 300 million registered domain names.
+
+
+### What Is The Difference Between A Domain Name and A URL?
+
+A uniform resource locator (URL), sometimes called a web address, contains the domain name
+of a site as well as other information, including the transfer protocol and the path. For
+example, in the URL ‘https://cloudflare.com/learning/’, ‘cloudflare.com’ is the domain
+name, while ‘https’ is the protocol and ‘/learning/’ is the path to a specific page on the
+website.
