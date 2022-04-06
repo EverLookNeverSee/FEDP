@@ -25,7 +25,20 @@
                 to the domain. Example: src="/images/img_girl.jpg".
         Tip: It is almost always best to use relative URLs. They will not break if you change domain.                
 -->
-    
+
+<!-- The width and height attribute:
+        The <img> tag should also contain the width and height attributes,
+             which specifies the width and height of the image (in pixels):
+                <img src="img_girl.jpg" width="500" height="600">
+-->
+
+<!-- The alt attribute:
+        The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for
+            some reason cannot be displayed. This can be due to slow connection, or an error in the src attribute,
+            or if the user uses a screen reader.
+            <img src="img_girl.jpg" alt="Girl with a jacket">
+-->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,6 +47,6 @@
 </head>
 <body>
     <a href="https://elns.info">This is my personal website.</a>
-<img src="images/me.jpg">
+<img src="images/me.jpg" , width="640" , height="640" , alt="This is me!">
 </body>
 </html>
