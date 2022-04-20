@@ -25,3 +25,11 @@ console.log(b_1, ", ", b_2)
 n = null    // Null is a special value that means "no value."
 u = undefined   // Undefined is another special value like null.
 console.log(n, ", ", u)
+
+// JavaScript's most important datatype is the object.
+// An object is a collection of name/value pairs, or a string to value map.
+let book = {
+    topic: "javascript",
+    edition: 7
+}
+console.log(book)
