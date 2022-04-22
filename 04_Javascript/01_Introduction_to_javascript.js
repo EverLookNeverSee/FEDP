@@ -69,3 +69,17 @@ let data = {    // An object with 2 properties
     trial_2: [[2, 3], [4, 5]]       // The elements of the arrays are arrays.
 }
 console.log("data:", data)
+
+
+// Comment Syntax in Code Examples
+// Operators act on values (the operands) to produce a new value.
+// Arithmetic operators are some of the simplest:
+add = 3 + 5     // addition
+sub = 5 - 3     // subtraction
+mul = 3 * 5     // multiplication
+div = 5 / 3     // division
+console.log("3 + 5 =", add, ", 5 - 3 =", sub, ", 3 * 5 =", mul, "5 / 3 =", div)
+mco = points[1].x - points[0].x
+console.log("mco:", mco)
+sc = "3" + "5"      // String concatenation
+console.log("String concatenation --> '3' + '5' =", sc)
