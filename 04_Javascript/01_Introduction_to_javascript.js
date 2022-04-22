@@ -33,3 +33,9 @@ let book = {
     edition: 7
 }
 console.log("book:", book)
+
+// Access the properties of an object with . or []:
+console.log("book.topic:", book.topic)
+console.log("book['edition']:", book["edition"])
+book.author = "flanagan"    // Create new properties by assignment.
+book.contents = {}          // {} is an empty object with no properties.
