@@ -39,3 +39,7 @@ console.log("book.topic:", book.topic)
 console.log("book['edition']:", book["edition"])
 book.author = "flanagan"    // Create new properties by assignment.
 book.contents = {}          // {} is an empty object with no properties.
+
+// Conditionally access properties with ?. (ES2020):
+console.log(book.contents?.ch01?.sect1)
+
