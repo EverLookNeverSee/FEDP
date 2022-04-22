@@ -83,3 +83,16 @@ mco = points[1].x - points[0].x
 console.log("mco:", mco)
 sc = "3" + "5"      // String concatenation
 console.log("String concatenation --> '3' + '5' =", sc)
+
+
+// JavaScript defines some shorthand arithmetic operators
+let count = 0
+console.log("count:", count)
+count++
+console.log("count++:", count)
+count--
+console.log("count--:", count)
+count += 2
+console.log("count+=2:", count)
+count *= 3
+console.log("count*=3:", count)
