@@ -43,3 +43,29 @@ book.contents = {}          // {} is an empty object with no properties.
 // Conditionally access properties with ?. (ES2020):
 console.log(book.contents?.ch01?.sect1)
 
+
+// JavaScript also supports arrays (numerically indexed lists) of values:
+let primes = [2, 3, 5, 7]       // An array of 4 values, delimited with [ and ].
+console.log("primes:", primes)
+console.log("primes[0]:", primes[0])    // the first element (index 0) of the array.
+console.log("primes.length:", primes.length)    // how many elements in the array.
+console.log("The last element of array:", primes[primes.length - 1])    // the last element of the array.
+primes[4] = 11   // Add a new element by assignment.
+console.log("primes:", primes)
+primes[4] = 13      // Or alter an existing element by assignment.
+console.log("primes:", primes)
+let empty = []      // [] is an empty array with no elements.
+console.log("empty.length:", empty.length)
+
+// Arrays and objects can hold other arrays and objects:
+let points = [      // An array with 2 elements.
+    {x:1, y:0},     // Each element is an object.
+    {x:0, y:1}
+]
+console.log("points:", points)
+
+let data = {    // An object with 2 properties
+    trial_1: [[1, 2], [3, 4]],      // The value of each property is an array.
+    trial_2: [[2, 3], [4, 5]]       // The elements of the arrays are arrays.
+}
+console.log("data:", data)
