@@ -179,3 +179,14 @@ function sum(array) {
     return total
 }
 console.log("sum(primes) -->", sum(primes))
+
+// A function to compute factorials using while loop
+function factorial(n) {
+    let product = 1
+    while (n > 1){
+        product *= n
+        n--
+    }
+    return product
+}
+console.log("factorial(5) -->", factorial(5))
