@@ -112,3 +112,12 @@ console.log("'two' === 'three' -->", "two" === "three")     // The two strings a
 console.log("'two' > 'three' -->", "two" > "three")         // tw is alphabetically greater than th
 
 console.log("false === (m > o) -->", false === (m > o))     // false is equal to false
+
+
+// Logical operators combine or invert boolean values
+let result_of_and = (m === 2) && (o === 3)
+console.log("(m === 2) && (o === 3) -->", result_of_and)
+let result_of_or = (m > 3) || (o < 3)
+console.log("(m > 3) || (o < 3) -->", result_of_or)
+let boolean_inversion = !(m === o)
+console.log("!(m === o) -->", boolean_inversion)
