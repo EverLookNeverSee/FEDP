@@ -12,18 +12,18 @@ x = 0;
 console.log("x:", x)
 
 // JavaScript supports several types of values
-y = 1   // Integer numbers
+let y = 1   // Integer numbers
 console.log("y:", y)
-z = 0.01    // Real numbers
+let z = 0.01    // Real numbers
 console.log("z:", z)
-s_1 = 'single quote string'     // String of text in single quotation marks
-s_2 = "double quote string"     // String of text in double quotation marks
+let s_1 = 'single quote string'     // String of text in single quotation marks
+let s_2 = "double quote string"     // String of text in double quotation marks
 console.log("s_1:",s_1, ", s_2:", s_2)
-b_1 = true      // A boolean value
-b_2 = false     // Another boolean value
+let b_1 = true      // A boolean value
+let b_2 = false     // Another boolean value
 console.log("b_1:", b_1, ", b_2:", b_2)
-n = null    // Null is a special value that means "no value."
-u = undefined   // Undefined is another special value like null.
+let n = null    // Null is a special value that means "no value."
+let u = undefined   // Undefined is another special value like null.
 console.log("n:", n, ", u:", u)
 
 // JavaScript's most important datatype is the object.
