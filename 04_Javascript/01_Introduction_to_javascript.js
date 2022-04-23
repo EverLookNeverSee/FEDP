@@ -147,3 +147,14 @@ let a = [];
 a.push(1, 2, 3)
 a.reverse()
 console.log("a -->", a)
+
+// We can define our own methods, too. The "this" keyword refers to the object
+// on which the method is defined: in this case, the points array from earlier.
+points.dist = function () {
+    let p1 = this[0]
+    let p2 = this[1]
+    let a = p2.x - p1.x
+    let b = p2.y - p1.y
+    return Math.sqrt(a * a + b * b)
+}
+console.log("points.dist -->", points.dist())
