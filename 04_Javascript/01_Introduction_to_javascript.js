@@ -107,3 +107,8 @@ console.log("m < o -->", m < o)         // less than
 console.log("m <= o -->", m <= o)       // less than or equal
 console.log("m > o -->", m > o)         // greater than
 console.log("m >= o -->", m >= o)       // greater than or equal
+// String comparison
+console.log("'two' === 'three' -->", "two" === "three")     // The two strings are different
+console.log("'two' > 'three' -->", "two" > "three")         // tw is alphabetically greater than th
+
+console.log("false === (m > o) -->", false === (m > o))     // false is equal to false
