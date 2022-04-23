@@ -158,3 +158,14 @@ points.dist = function () {
     return Math.sqrt(a * a + b * b)
 }
 console.log("points.dist -->", points.dist())
+
+// A function to compute the absolute value.
+function abs(x) {
+    if (x >= 0){
+        return x
+    }
+    else{
+        return -x
+    }
+}
+console.log("abs(10) === abs(-10) -->", abs(10) === abs(-10))
