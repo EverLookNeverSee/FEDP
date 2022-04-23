@@ -96,3 +96,14 @@ count += 2
 console.log("count+=2:", count)
 count *= 3
 console.log("count*=3:", count)
+
+
+// Equality and relational operators test whether two values are equal,
+// unequal, less than, greater than, and so on. They evaluate to true or false.
+let m = 2, o = 3
+console.log("m === o -->", m === o)     // Equality
+console.log("m !== o -->", m !== o)     // Inequality
+console.log("m < o -->", m < o)         // less than
+console.log("m <= o -->", m <= o)       // less than or equal
+console.log("m > o -->", m > o)         // greater than
+console.log("m >= o -->", m >= o)       // greater than or equal
