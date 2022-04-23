@@ -139,3 +139,11 @@ const plus1_ = x => x + 1;
 const square_ = x => x * x;
 console.log("plus1_(6) -->", plus1_(6))
 console.log("square_(10) -->", square_(10))
+
+
+// When functions are assigned to the properties of an object, we call
+// them "methods." All JavaScript objects (including arrays) have methods:
+let a = [];
+a.push(1, 2, 3)
+a.reverse()
+console.log("a -->", a)
