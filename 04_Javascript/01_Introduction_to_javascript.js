@@ -200,3 +200,23 @@ function factorial_2(n) {
     return product
 }
 console.log("factorial_2(5) -->", factorial_2(5))
+
+
+// OOP in javascript
+class Point {
+    constructor(x, y) {
+        this.x = x
+        this.y = y
+    }
+    distance(){
+        return Math.sqrt(
+            this.x * this.y +
+            this.y * this.y
+        )
+    }
+}
+
+// Use the Point() constructor function with "new" to create Point objects
+let p = new Point(1, 1)
+let dist = p.distance()
+console.log("p.distance() -->", dist)
