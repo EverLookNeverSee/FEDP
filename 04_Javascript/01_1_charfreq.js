@@ -61,3 +61,14 @@ class Histogram {
         return lines.join("\n")
     }
 }
+
+async function histogramFromStdin() {
+    process.stdin.setEncoding("utf-8");
+    let histogram = new Histogram();
+    for await (let chunk of process.stdin) {
+        histogram.add(chunk);
+    }
+    return histogram;
+}
+
+histogramFromStdin().then(histogram => {console.log(histogram.toString());})
