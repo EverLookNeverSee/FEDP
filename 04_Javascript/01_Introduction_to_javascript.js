@@ -121,3 +121,21 @@ let result_of_or = (m > 3) || (o < 3)
 console.log("(m > 3) || (o < 3) -->", result_of_or)
 let boolean_inversion = !(m === o)
 console.log("!(m === o) -->", boolean_inversion)
+
+
+// Functions are parameterized blocks of JavaScript code that we can invoke.
+function plus1(x) {
+    return x + 1
+}
+console.log("plus1(3) -->", plus1(3))
+
+function square(x) {
+    return x * x
+}
+console.log("square(5) -->", square(5))
+
+// Arrow functions
+const plus1_ = x => x + 1;
+const square_ = x => x * x;
+console.log("plus1_(6) -->", plus1_(6))
+console.log("square_(10) -->", square_(10))
