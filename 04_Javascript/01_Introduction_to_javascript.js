@@ -169,3 +169,13 @@ function abs(x) {
     }
 }
 console.log("abs(10) === abs(-10) -->", abs(10) === abs(-10))
+
+// Compute the sum of the elements of an array
+function sum(array) {
+    let total = 0
+    for (let x of array){
+        total += x
+    }
+    return total
+}
+console.log("sum(primes) -->", sum(primes))
