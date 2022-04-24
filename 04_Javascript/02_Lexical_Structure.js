@@ -37,3 +37,10 @@ null                // Absence of an object
 // class    else        function    new                 switch      var
 
 // enum     implements  interface   package private     protected   public
+
+
+// Unicode:
+const π = 3.14;
+console.log("pi:", π)
+const sí = true;
+console.log("sí:", sí)
