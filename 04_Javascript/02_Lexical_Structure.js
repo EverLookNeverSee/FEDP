@@ -6,3 +6,14 @@
 * This is a multi-line comment. The extra * character at the start of
 * each line are not e required part of the syntax. they just look cool.
 */
+
+
+// Literals:
+// A literal is a data value that appears directly in a program. The following are all literals:
+12      // the number twelve
+1.2     // the number one point two
+"Hello World"       // A string of text
+'Hi'                // Another string
+true                // A boolean value
+false               // Another boolean value
+null                // Absense of an object
