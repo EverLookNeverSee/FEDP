@@ -44,3 +44,10 @@ const π = 3.14;
 console.log("pi:", π)
 const sí = true;
 console.log("sí:", sí)
+
+
+// Unicode Escape Sequences:
+let café = 1; // Define a variable using a Unicode character
+console.log("café:", café)
+console.log("caf\u00e9:", caf\u00e9)        // => 1; access the variable using an escape sequence
+console.log("caf\u{E9}:", caf\u{E9})       // => 1; another form of the same escape sequence
