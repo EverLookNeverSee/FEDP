@@ -16,4 +16,12 @@
 'Hi'                // Another string
 true                // A boolean value
 false               // Another boolean value
-null                // Absense of an object
+null                // Absence of an object
+
+
+// These are all legal identifiers:
+i
+my_variable_name
+v13
+_dummy
+$str
