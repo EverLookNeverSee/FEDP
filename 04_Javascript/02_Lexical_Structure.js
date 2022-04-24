@@ -20,11 +20,11 @@ null                // Absence of an object
 
 
 // These are all legal identifiers:
-i
-my_variable_name
-v13
-_dummy
-$str
+// i
+// my_variable_name
+// v13
+// _dummy
+// $str
 
 
 // Reserved words:
