@@ -51,3 +51,13 @@ let café = 1; // Define a variable using a Unicode character
 console.log("café:", café)
 console.log("caf\u00e9:", caf\u00e9)        // => 1; access the variable using an escape sequence
 console.log("caf\u{E9}:", caf\u{E9})       // => 1; another form of the same escape sequence
+
+
+// Emoji
+console.log("\u{1F600}"); // Prints a smiley face emoji
+
+// Unicode Normalization
+const café = 1;     // This constant is named "caf\u{e9}"
+const café = 2;     // This constant is different: "cafe\u{301}"
+console.log("café:", café)      // => 1: this constant has one value
+console.log("café:", café)      // => 2: this indistinguishable constant has a different value
