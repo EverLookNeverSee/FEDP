@@ -61,3 +61,20 @@ const café = 1;     // This constant is named "caf\u{e9}"
 const café = 2;     // This constant is different: "cafe\u{301}"
 console.log("café:", café)      // => 1: this constant has one value
 console.log("café:", café)      // => 2: this indistinguishable constant has a different value
+
+
+// Optional Semicolons
+// Consider the following code. Since the two statements appear on separate lines, the
+// first semicolon could be omitted:
+a = 3;
+b = 4;
+// Written as follows, however, the first semicolon is required:
+a = 3; b = 4;
+
+let a
+a
+=
+    3
+console.log(a)
+// Javascript interprets this code like this:
+let a; a = 3; console.log(a);
