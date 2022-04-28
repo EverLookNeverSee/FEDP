@@ -84,3 +84,7 @@ let y = x + f
 (a + b).toString()
 
 let y = x + f(a + b).toString();
+
+// Defensive semicolon
+let x = 0
+;[x, x + 1, x + 2].forEach(console.log)
