@@ -78,3 +78,9 @@ a
 console.log(a)
 // Javascript interprets this code like this:
 let a; a = 3; console.log(a);
+
+// Second example
+let y = x + f
+(a + b).toString()
+
+let y = x + f(a + b).toString();
