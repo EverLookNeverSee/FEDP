@@ -84,3 +84,8 @@ Infinity        // A positive number too big to represent
 Number.POSITIVE_INFINITY    // Same value
 1 / 0       // Infinity
 Number.MAX_VALUE * 2        // Infinity ; Overflow
+
+-Infinity       // A negative number too big to represent
+Number.NEGATIVE_INFINITY    // same value
+-1 / 0      // -Infinity
+-Number.MAX_VALUE * 2       // -Infinity
