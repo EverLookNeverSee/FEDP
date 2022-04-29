@@ -77,4 +77,10 @@ console.log("Math.clz32(0xf):", Math.clz32(0xf))        // number of leading zer
 console.log("Math.trunc(3.9):", Math.trunc(3.9))        // truncating fractional part
 console.log("Math.fround(4.66):", Math.fround(4.66))      // round to the nearest 32-bit float
 console.log("Math.sinh(0):", Math.sinh(0))      // Hyperbolic sine
-console.log("Math.asinh(0)", Math.asinh(0))     // Hyperbolic arcsine
+console.log("Math.asinh(0)", Math.asinh(0))     // Hyperbolic arc-sine
+
+
+Infinity        // A positive number too big to represent
+Number.POSITIVE_INFINITY    // Same value
+1 / 0       // Infinity
+Number.MAX_VALUE * 2        // Infinity ; Overflow
