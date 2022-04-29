@@ -10,3 +10,15 @@ console.log("sorted a:", s_a)
 // ±5 × 10 −324 .
 // The JavaScript number format allows you to exactly represent all integers between
 // −9,007,199,254,740,992 (−2 53 ) and 9,007,199,254,740,992 (2 53 ), inclusive.
+
+// Integer Literals:
+// base-10 integer
+0
+3
+1000000
+// base-16 values
+0xff            // 255 --> 15 * 16 + 15
+0xbadcafe       // 195939070
+// base-2 values
+0b10101         // 21 --> (1*16 + 0*8 + 1*4 + 0*2 + 1*1)
+0o377           // 255 --> (3*64 + 7*8 + 7*1)
