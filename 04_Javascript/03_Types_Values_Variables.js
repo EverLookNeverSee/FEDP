@@ -29,3 +29,13 @@ console.log("sorted a:", s_a)
 .333333333
 6.02e23         // 6.02 * 10^23
 1.4738223E-32   // 1.4738223 * 10^-32
+
+// Separators in numeric literals:
+let billion = 1_000_000_000;            // underscore as a thousand separators
+console.log("billion:", billion)
+let bytes = 0x89_AB_CD_EF;              // As bytes separator
+console.log("bytes:", bytes)
+let bits = 0b0001_1101_0111;            // As a nibble separator
+console.log("bits:", bits)
+let fraction = 0.123_456_789;           // Works for fractional part, too.
+console.log("fraction:", fraction)
