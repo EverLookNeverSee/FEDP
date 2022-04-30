@@ -150,3 +150,10 @@ console.log("12345n:", base_10_big_int)
 console.log("0b111111:", base_2_big_int)
 console.log("0o7777n:", base_8_big_int)
 console.log("0x8000000000000000n:", base_16_big_int)
+
+// Using BigInt as a function:
+let bi = BigInt(Number.MAX_SAFE_INTEGER);
+let string = "1" + "0".repeat(100);     // 1 followed by 100 zeros
+console.log("bi:", bi)
+let bi_string = BigInt(string);
+console.log("bi_string:", bi_string)        // 10n ** 100n: one googol
