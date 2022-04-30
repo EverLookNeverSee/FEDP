@@ -117,3 +117,10 @@ console.log("Number.isSafeInteger(-Math.pow(2, 53)):", Number.isSafeInteger(-Mat
 console.log("Number.MIN_SAFE_INTEGER:", Number.MIN_SAFE_INTEGER)        // -(2 ** 53 - 1)
 console.log("Number.MAX_SAFE_INTEGER:", Number.MAX_SAFE_INTEGER)        // (2 ** 53 -1)
 console.log("Number.EPSILON:", Number.EPSILON)          // 2 **-52: smallest difference between numbers
+
+
+// Comparing zero and negative zero
+let zero = 0
+let negative_zero = -0
+console.log("zero === negative_zero:", zero === negative_zero)        // zero and negative zero are equal
+console.log("1 / zero === 1 / negative_zero:", 1 / zero === 1 / negative_zero)  // infinity and -infinity are not equal
