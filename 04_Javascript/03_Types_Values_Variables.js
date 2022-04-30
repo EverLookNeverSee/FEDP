@@ -157,3 +157,12 @@ let string = "1" + "0".repeat(100);     // 1 followed by 100 zeros
 console.log("bi:", bi)
 let bi_string = BigInt(string);
 console.log("bi_string:", bi_string)        // 10n ** 100n: one googol
+
+// Arithmetic with BigInt values works like arithmetic with regular JavaScript numbers,
+// except that division drops any remainder and rounds down (toward zero):
+let bi_add = 1000n + 2000n;         // 3000n
+let bi_sub = 3000n - 2000n;         // 1000n
+let bi_mul = 2000n * 3000n;         // 6000000n
+let bi_div = 3000n / 997n;          // 3n
+let bi_mod = 3000n % 997n;          // 9n
+let bi_pow = (2n ** 131071n) - 1n;  // // A Mersenne prime with 39457 decimal digits
