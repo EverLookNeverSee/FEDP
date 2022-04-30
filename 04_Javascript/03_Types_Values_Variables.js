@@ -166,3 +166,9 @@ let bi_mul = 2000n * 3000n;         // 6000000n
 let bi_div = 3000n / 997n;          // 3n
 let bi_mod = 3000n % 997n;          // 9n
 let bi_pow = (2n ** 131071n) - 1n;  // // A Mersenne prime with 39457 decimal digits
+
+// Comparison operators with mixed numeric typed
+console.log("1 < 2n:", 1 < 2n)
+console.log("2 > 1n:", 2 > 1n)
+console.log("0 == 0n:", 0 == 0n)
+console.log("0 === 0n:", 0 === 0n)
