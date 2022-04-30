@@ -99,3 +99,21 @@ Number.MIN_VALUE / 2        // 0: underflow
 -Number.MIN_VALUE / 2       // -0: negative zero
 -1 / Infinity               // -0: also negative zero
 -0
+
+
+// Number properties in es6
+console.log("Number.parseInt('2'):", Number.parseInt("2"))
+console.log("Number.parseFloat(2.5):", Number.parseFloat("2.5"))
+console.log("Number.isNaN(5):", Number.isNaN(5))
+console.log("Number.isNaN(NaN):", Number.isNaN(NaN))
+console.log("Number.isFinite(1):", Number.isFinite(1))
+console.log("Number.isFinite(1 / 0):", Number.isFinite(1 / 0))
+console.log("Number.isInteger(8):", Number.isInteger(8))
+console.log("Number.isInteger(8.9):", Number.isInteger(8.9))
+console.log("Number.isSafeInteger(Math.pow(2, 52)):", Number.isSafeInteger(Math.pow(2, 52)))
+console.log("Number.isSafeInteger(Math.pow(2, 53)):", Number.isSafeInteger(Math.pow(2, 53)))
+console.log("Number.isSafeInteger(-Math.pow(2, 52)):", Number.isSafeInteger(-Math.pow(2, 52)))
+console.log("Number.isSafeInteger(-Math.pow(2, 53)):", Number.isSafeInteger(-Math.pow(2, 53)))
+console.log("Number.MIN_SAFE_INTEGER:", Number.MIN_SAFE_INTEGER)        // -(2 ** 53 - 1)
+console.log("Number.MAX_SAFE_INTEGER:", Number.MAX_SAFE_INTEGER)        // (2 ** 53 -1)
+console.log("Number.EPSILON:", Number.EPSILON)          // 2 **-52: smallest difference between numbers
