@@ -11,4 +11,6 @@ p{
     font-family: "Courier New", serif;
     font-size: 160%;
     border: 2px solid powderblue;
+    padding: 30px;
+    margin: 50px;
 }
