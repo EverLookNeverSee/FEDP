@@ -172,3 +172,13 @@ console.log("1 < 2n:", 1 < 2n)
 console.log("2 > 1n:", 2 > 1n)
 console.log("0 == 0n:", 0 == 0n)
 console.log("0 === 0n:", 0 === 0n)
+
+
+// Dates and Times:
+let timestamp = Date.now();     // The current time as a timestamp (a number).
+let now = new Date();           // The current time as a Date object
+let ms = now.getTime();         // Convert to a millisecond timestamp.
+let iso =now.toISOString();     // Convert to a string in standard format.
+console.log("The current time as a timestamp (a number):", timestamp)
+console.log("Convert to a millisecond timestamp:", ms)
+console.log("Convert to a string in standard format:", iso)
