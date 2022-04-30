@@ -94,3 +94,8 @@ NaN         // The not a number value
 Number.NaN  // Same value
 0 / 0       // NaN
 Infinity / Infinity     // NaN
+
+Number.MIN_VALUE / 2        // 0: underflow
+-Number.MIN_VALUE / 2       // -0: negative zero
+-1 / Infinity               // -0: also negative zero
+-0
