@@ -30,3 +30,4 @@
   * [01_0_Introduction_to_javascript](04_Javascript/01_0_Introduction_to_javascript.js)
   * [01_1_charfreq](04_Javascript/01_1_charfreq.js)
   * [02_Lexical_Structure](04_Javascript/02_Lexical_Structure.js)
+  * [03_Types_Values_Variables](04_Javascript/03_Types_Values_Variables.js)
