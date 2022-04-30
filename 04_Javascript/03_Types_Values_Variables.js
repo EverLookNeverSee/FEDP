@@ -139,3 +139,14 @@ let y = .2 - .1;
 console.log(".3 - .2 === .2 - .1:", x === y)        // the two values are not the same
 console.log(".3 - .2 === .1:", x === .1)      // .3 - .2 is not equal to .1
 console.log(".2 - .1 === .1:", y === .1)      // .2 - .1 is equal to .1
+
+
+// Arbitrary Precision Integers with BigInt
+let base_10_big_int = 12345n;
+let base_2_big_int = 0b111111;
+let base_8_big_int = 0o7777n;
+let base_16_big_int = 0x8000000000000000n;      // 2n ** 63n: a 64-bit integer
+console.log("12345n:", base_10_big_int)
+console.log("0b111111:", base_2_big_int)
+console.log("0o7777n:", base_8_big_int)
+console.log("0x8000000000000000n:", base_16_big_int)
