@@ -124,3 +124,18 @@ let zero = 0
 let negative_zero = -0
 console.log("zero === negative_zero:", zero === negative_zero)        // zero and negative zero are equal
 console.log("1 / zero === 1 / negative_zero:", 1 / zero === 1 / negative_zero)  // infinity and -infinity are not equal
+
+
+
+// Binary Floating-Point and Rounding Errors
+// The IEEE-754 floating-point representation used by JavaScript (and just about every
+// other modern programming language) is a binary representation, which can exactly
+// represent fractions like 1/2 , 1/8 , and 1/1024 . Unfortunately, the fractions we use
+// most commonly (especially when performing financial calculations) are decimal fractions:
+// 1/10 , 1/100 , and so on. Binary floating-point representations cannot exactly
+// represent numbers as simple as 0.1 .
+let x = .3 - .2;
+let y = .2 - .1;
+console.log(".3 - .2 === .2 - .1:", x === y)        // the two values are not the same
+console.log(".3 - .2 === .1:", x === .1)      // .3 - .2 is not equal to .1
+console.log(".2 - .1 === .1:", y === .1)      // .2 - .1 is equal to .1
