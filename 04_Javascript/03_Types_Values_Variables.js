@@ -89,3 +89,8 @@ Number.MAX_VALUE * 2        // Infinity ; Overflow
 Number.NEGATIVE_INFINITY    // same value
 -1 / 0      // -Infinity
 -Number.MAX_VALUE * 2       // -Infinity
+
+NaN         // The not a number value
+Number.NaN  // Same value
+0 / 0       // NaN
+Infinity / Infinity     // NaN
