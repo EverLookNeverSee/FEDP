@@ -198,4 +198,14 @@ console.log("love length:", love.length)
 "'name'='myForm'"
 "Where are you from?"
 "τ is the ratio of a circle's circumference to its radius"
-`"She said 'Hi'"`
+"She said 'Hi'"
+
+// A string representing 2 lines written on one line:
+console.log("two\nlines")
+// A one-line string written on 3 lines:
+console.log("one\
+long\
+line.")
+// A two-line string written on two lines:
+console.log(`the newline character at the end of this line
+is included literally in this string`)
