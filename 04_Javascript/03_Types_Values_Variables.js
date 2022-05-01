@@ -182,3 +182,12 @@ let iso =now.toISOString();     // Convert to a string in standard format.
 console.log("The current time as a timestamp (a number):", timestamp)
 console.log("Convert to a millisecond timestamp:", ms)
 console.log("Convert to a string in standard format:", iso)
+
+
+
+// TEXT:
+// Characters, Codepoints, and JavaScript Strings
+let euro = "€";
+let love = "❤";
+console.log("euro length:", euro.length)
+console.log("love length:", love.length)
