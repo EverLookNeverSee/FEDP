@@ -239,3 +239,14 @@ console.log(sample_02)
 // \x nn The Unicode character specified by the two hexadecimal digits nn
 // \u nnnn The Unicode character specified by the four hexadecimal digits nnnn
 // \u{ n } The Unicode character specified by the codepoint n, where n is one to six hexadecimal digits between 0 and 10FFFF (ES6)
+
+
+// Working with strings:
+let msg = "Hello, " + "World!"
+console.log(msg)
+let name = "Milad Sadeghi DM"
+let greeting = "Welcome" + " " + name
+console.log(greeting)
+
+// Length of the string
+console.log(name.length)
