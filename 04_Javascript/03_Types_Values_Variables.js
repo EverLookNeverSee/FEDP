@@ -250,3 +250,10 @@ console.log(greeting)
 
 // Length of the string
 console.log(name.length)
+
+// JS API for working with strings:
+let s = "Hello, World"
+console.log(s.substring(1, 4))      // 2nd, 3rd and 4th characters
+console.log(s.slice(1, 4))          // 2nd, 3rd and 4th characters
+console.log(s.slice(-3))            // last 3 characters
+console.log(s.split(","))   // split at delimiter string
