@@ -209,3 +209,12 @@ line.")
 // A two-line string written on two lines:
 console.log(`the newline character at the end of this line
 is included literally in this string`)
+
+// In client-side JavaScript programming, JavaScript code may contain strings of HTML
+// code, and HTML code may contain strings of JavaScript code. Like JavaScript, HTML
+// uses either single or double quotes to delimit its strings. Thus, when combining Java‐
+// Script and HTML, it is a good idea to use one style of quotes for JavaScript and the
+// other style for HTML. In the following example, the string “Thank you” is single-quoted
+// within a JavaScript expression, which is then double-quoted within an HTML
+// event-handler attribute:
+// <button onclick="alert('Thank you')">Click Me</button>
