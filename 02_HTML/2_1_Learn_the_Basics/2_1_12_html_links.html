@@ -29,6 +29,9 @@
         Absolute URLs vs. Relative URLs:
             Both examples above are using an absolute URL (a full web address) in the href attribute.
             A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part).
+
+        HTML Links - Use an Image as a Link:
+            To use an image as a link, just put the <img> tag inside the <a> tag.
 -->
 
 
@@ -46,5 +49,10 @@
     <hr>
     <h2>Relative URLs</h2>
     <p><a href="images/me.jpg" target="_blank">My Photo</a></p>
+    <hr>
+    <h2>An Image As a Link</h2>
+    <a href="https://elns.info" target="_blank">
+        <img src="images/me.jpg" alt="My Personal Website" style="width: 200px;height: 200px">
+    </a>
 </body>
 </html>
