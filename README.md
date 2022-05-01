@@ -1,6 +1,9 @@
 # FEDP
 ## Front-End Development Practices
 
+[![CodeFactor](https://www.codefactor.io/repository/github/everlookneversee/fedp/badge)](https://www.codefactor.io/repository/github/everlookneversee/fedp)
+
+
 ### Table of contents:
 * **[01-Internet:](01_Internet)**
   * [How does the internet work?](01_Internet/1_1_How_Does_The_Internet_Work.md)
