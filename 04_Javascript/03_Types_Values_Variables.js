@@ -191,3 +191,11 @@ let euro = "€";
 let love = "❤";
 console.log("euro length:", euro.length)
 console.log("love length:", love.length)
+
+// String Literals:
+""      // the empty string. It has zero characters
+"testing"
+"'name'='myForm'"
+"Where are you from?"
+"τ is the ratio of a circle's circumference to its radius"
+`"She said 'Hi'"`
