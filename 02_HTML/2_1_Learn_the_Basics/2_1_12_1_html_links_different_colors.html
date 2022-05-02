@@ -6,6 +6,9 @@
                 * A visited link is underlined and purple
                 * An active link is underlined and red
             You can change the link state colors, by using CSS.
+
+        Link Buttons:
+            A link can also be styled as a button, by using CSS.
 -->
 
 
@@ -15,30 +18,22 @@
     <meta charset="UTF-8">
     <title>HTML Links - Different Colors</title>
     <style>
-        a:link {
-            color: green;
-            background-color: transparent;
+        a:link, a:visited{
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
             text-decoration: none;
+            display: inline-block;
         }
-        a:visited {
-            color: pink;
-            background-color: transparent;
-            text-decoration: none;
-        }
-        a:hover {
-            color: red;
-            background-color: transparent;
-            text-decoration: underline;
-        }
-        a:active {
-            color: yellow;
-            background-color: transparent;
-            text-decoration: underline;
+        a:hover, a:active{
+            background-color: red;
         }
     </style>
 </head>
 <body>
     <a href="https://elns.info" target="_self">My Personal website</a>
     <hr>
+    <button onclick="document.location='styles.css'">This is a link</button>
 </body>
 </html>
