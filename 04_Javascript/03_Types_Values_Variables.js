@@ -301,3 +301,7 @@ console.log("<>".repeat(10))
 // Template Literals
 let greetings = `Hello ${name}`
 console.log(greetings)
+
+// Tagged template literals
+console.log(`\n`.length)
+console.log(String.raw`\n`.length)
