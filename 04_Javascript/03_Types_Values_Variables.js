@@ -281,3 +281,9 @@ console.log(s.charAt(0))        // first character
 console.log(s.length - 1)       // last character
 console.log(s.charCodeAt(0))    // 16-bit number at the specified position
 console.log(s.codePointAt(0))   // es6 works for codepoints > 16-bit
+
+// String padding functions in ES2017
+console.log("x".padStart(5))      // add spaces on the left to a length of 5
+console.log("x".padEnd(5))        // add spaces on the right to a length of 5
+console.log("x".padStart(5, "*"))
+console.log("x".padEnd(5, "-"))
