@@ -263,3 +263,8 @@ console.log(s.indexOf("l"))     // position of first letter l
 console.log(s.indexOf("l", 4))  // position of first "l" at or after 4
 console.log(s.indexOf("zz"))    // s does not include the substring 'zz'
 console.log(s.lastIndexOf("l")) // position of last letter l
+
+// Boolean searching functions in es6 and later
+console.log(s.startsWith("Hel"))
+console.log(s.endsWith("d"))
+console.log(s.includes("or"))
