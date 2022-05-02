@@ -292,3 +292,7 @@ console.log("x".padEnd(5, "-"))
 console.log(" test ".trim())
 console.log(" test ".trimStart())
 console.log(" test ".trimEnd())
+
+// Miscellaneous string methods
+console.log(s.concat("!"))
+console.log("<>".repeat(10))
