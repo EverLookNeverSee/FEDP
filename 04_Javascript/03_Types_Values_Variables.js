@@ -268,3 +268,10 @@ console.log(s.lastIndexOf("l")) // position of last letter l
 console.log(s.startsWith("Hel"))
 console.log(s.endsWith("d"))
 console.log(s.includes("or"))
+
+// Creating modified versions of a string
+console.log(s.replace("llo", "ya"))
+console.log(s.toLowerCase())
+console.log(s.toUpperCase())
+console.log(s.normalize())      // unicode nfc normalization, es6
+console.log(s.normalize("NFD"))     // nfd normalization
