@@ -257,3 +257,9 @@ console.log(s.substring(1, 4))      // 2nd, 3rd and 4th characters
 console.log(s.slice(1, 4))          // 2nd, 3rd and 4th characters
 console.log(s.slice(-3))            // last 3 characters
 console.log(s.split(","))   // split at delimiter string
+
+// Searching at string
+console.log(s.indexOf("l"))     // position of first letter l
+console.log(s.indexOf("l", 4))  // position of first "l" at or after 4
+console.log(s.indexOf("zz"))    // s does not include the substring 'zz'
+console.log(s.lastIndexOf("l")) // position of last letter l
