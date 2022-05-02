@@ -287,3 +287,8 @@ console.log("x".padStart(5))      // add spaces on the left to a length of 5
 console.log("x".padEnd(5))        // add spaces on the right to a length of 5
 console.log("x".padStart(5, "*"))
 console.log("x".padEnd(5, "-"))
+
+// Space trimming functions. trim() is ES5; others ES2019
+console.log(" test ".trim())
+console.log(" test ".trimStart())
+console.log(" test ".trimEnd())
