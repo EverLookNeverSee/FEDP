@@ -275,3 +275,9 @@ console.log(s.toLowerCase())
 console.log(s.toUpperCase())
 console.log(s.normalize())      // unicode nfc normalization, es6
 console.log(s.normalize("NFD"))     // nfd normalization
+
+// Inspecting individual (16-bit) characters of a string
+console.log(s.charAt(0))        // first character
+console.log(s.length - 1)       // last character
+console.log(s.charCodeAt(0))    // 16-bit number at the specified position
+console.log(s.codePointAt(0))   // es6 works for codepoints > 16-bit
