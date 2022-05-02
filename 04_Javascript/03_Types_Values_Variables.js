@@ -296,3 +296,8 @@ console.log(" test ".trimEnd())
 // Miscellaneous string methods
 console.log(s.concat("!"))
 console.log("<>".repeat(10))
+
+
+// Template Literals
+let greetings = `Hello ${name}`
+console.log(greetings)
