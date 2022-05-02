@@ -305,3 +305,17 @@ console.log(greetings)
 // Tagged template literals
 console.log(`\n`.length)
 console.log(String.raw`\n`.length)
+
+
+// Pattern Matching
+// /^HTML/;                     Match the letters H T M L at the start of a string
+// /[1-9][0-9]*/;               Match a nonzero digit, followed by any # of digits
+// /\bjavascript\b/i;           Match "javascript" as a word, case-insensitive
+
+let text = "testing: 1, 2, 3";
+let pattern = /\d+/g;           // Matches all instances of one or more digits
+console.log(pattern.test(text))
+console.log(text.search(pattern))
+console.log(text.match(pattern))
+console.log(text.replace(pattern, "#"))
+console.log(text.split(/\D+/))
