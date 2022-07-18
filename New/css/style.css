@@ -1,9 +1,8 @@
-/* Selecting id */
-#first{
-    background-color: yellow;
+/* Selecting class */
+.color-red{
+    color: red;
 }
 
-/* Selecting class */
-.text{
-    color: red;
+.background-yellow{
+    background-color: yellow;
 }
