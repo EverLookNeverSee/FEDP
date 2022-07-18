@@ -14,3 +14,9 @@
 div.background-yellow{
     font-size: x-large;
 }
+
+footer div .color-red{
+    font-size: xxx-large;
+    color: blue;
+    font-family: "Andale Mono", cursive;
+}
