@@ -24,3 +24,7 @@ footer div .color-red{
 a[href]{
     color: pink;
 }
+
+a[href="https://example.com"]{
+    color: blue;
+}
