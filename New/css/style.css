@@ -37,3 +37,7 @@ a[href$="org"]{
     color: yellow;
     background-color: black;
 }
+
+li[class="item"] a{
+    color: green;
+}
