@@ -25,6 +25,10 @@ a[href]{
     color: pink;
 }
 
-a[href="https://example.com"]{
-    color: blue;
+/*a[href="https://example.com"]{*/
+/*    color: blue;*/
+/*}*/
+
+a[href*="example"]{
+    color: lime;
 }
