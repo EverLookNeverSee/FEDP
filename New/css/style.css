@@ -20,3 +20,7 @@ footer div .color-red{
     color: blue;
     font-family: "Andale Mono", cursive;
 }
+
+a[href]{
+    color: pink;
+}
