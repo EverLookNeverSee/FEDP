@@ -6,3 +6,7 @@
 .background-yellow{
     background-color: yellow;
 }
+
+.color-red.background-yellow{
+    font-weight: bold;
+}
