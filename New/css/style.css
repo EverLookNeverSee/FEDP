@@ -1,9 +1,9 @@
-/* Header Section */
-header{
-    background: blue;
+/* Selecting id */
+#first{
+    background-color: yellow;
 }
 
-/* Paragraph Section */
-p{
+/* Selecting class */
+.text{
     color: red;
 }
