@@ -1,43 +1,48 @@
-/* Selecting class */
-.color-red{
-    color: red;
-}
-
-.background-yellow{
-    background-color: yellow;
-}
-
-.color-red.background-yellow{
-    font-weight: bold;
-}
-
-div.background-yellow{
-    font-size: x-large;
-}
-
-footer div .color-red{
-    font-size: xxx-large;
-    color: blue;
-    font-family: "Andale Mono", cursive;
-}
-
-a[href]{
-    color: pink;
-}
-
-/*a[href="https://example.com"]{*/
-/*    color: blue;*/
+/*!* Selecting class *!*/
+/*.color-red{*/
+/*    color: red;*/
 /*}*/
 
-a[href*="example"]{
-    color: lime;
-}
+/*.background-yellow{*/
+/*    background-color: yellow;*/
+/*}*/
 
-a[href$="org"]{
-    color: yellow;
-    background-color: black;
-}
+/*.color-red.background-yellow{*/
+/*    font-weight: bold;*/
+/*}*/
 
-li[class="item"] a{
-    color: green;
+/*div.background-yellow{*/
+/*    font-size: x-large;*/
+/*}*/
+
+/*footer div .color-red{*/
+/*    font-size: xxx-large;*/
+/*    color: blue;*/
+/*    font-family: "Andale Mono", cursive;*/
+/*}*/
+
+/*a[href]{*/
+/*    color: pink;*/
+/*}*/
+
+/*!*a[href="https://example.com"]{*!*/
+/*!*    color: blue;*!*/
+/*!*}*!*/
+
+/*a[href*="example"]{*/
+/*    color: lime;*/
+/*}*/
+
+/*a[href$="org"]{*/
+/*    color: yellow;*/
+/*    background-color: black;*/
+/*}*/
+
+/*li[class="item"] a{*/
+/*    color: green;*/
+/*}*/
+
+/* span tag that is the direct child of li tag */
+li > span{
+    background-color: brown;
 }
