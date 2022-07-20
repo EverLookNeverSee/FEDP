@@ -54,3 +54,14 @@
 li.item ~ span{
     background-color: yellow;
 }
+
+
+li a:hover{
+    color: hotpink;
+    background-color: dimgrey;
+    font-size: xxx-large;
+}
+
+ul li:first-child a{
+    color: green;
+}
