@@ -42,11 +42,15 @@
 /*    color: green;*/
 /*}*/
 
-/* span tag that is the direct child of li tag */
-li > span{
-    background-color: brown;
-}
+/*!* span tag that is the direct child of li tag *!*/
+/*li > span{*/
+/*    background-color: brown;*/
+/*}*/
 
-li.item + span{
+/*li.item + span{*/
+/*    background-color: yellow;*/
+/*}*/
+
+li.item ~ span{
     background-color: yellow;
 }
