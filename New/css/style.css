@@ -46,3 +46,7 @@
 li > span{
     background-color: brown;
 }
+
+li.item + span{
+    background-color: yellow;
+}
